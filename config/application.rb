@@ -15,5 +15,9 @@ module ZiplineRails6Poc
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+    # Needed because of an issue with webpacker
+    # https://github.com/rails/webpacker/issues/1374
+    config.webpacker.check_yarn_integrity = false
   end
 end
