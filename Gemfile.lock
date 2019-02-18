@@ -77,7 +77,10 @@ GEM
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
     concurrent-ruby (1.1.4)
+    content_disposition (1.0.0)
     crass (1.0.4)
+    down (4.8.0)
+      addressable (~> 2.5)
     erubi (1.8.0)
     ffi (1.10.0)
     globalid (0.4.2)
@@ -163,6 +166,9 @@ GEM
     selenium-webdriver (3.141.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2, >= 1.2.2)
+    shrine (2.15.0)
+      content_disposition (~> 1.0)
+      down (~> 4.1)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -213,6 +219,7 @@ DEPENDENCIES
   rails (~> 6.0.0.beta1)
   sass-rails (~> 5.0)
   selenium-webdriver
+  shrine (~> 2.15)
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (< 1.4)
