@@ -1,9 +1,9 @@
 GIT
-  remote: https://github.com/fringd/zipline.git
-  revision: eff1c493ab9eb91a56406aec1b389a64cd5121dd
+  remote: https://github.com/aried3r/zipline.git
+  revision: 68a9f5694abc4ad7048309f32cf93a6bacd72660
+  branch: ar/replace_curb
   specs:
     zipline (1.1.0)
-      curb (>= 0.8.0, < 0.10)
       rails (>= 3.2.1, < 6.1)
       zip_tricks (>= 4.2.1, <= 5.0.0)
 
@@ -90,7 +90,6 @@ GEM
     concurrent-ruby (1.1.5)
     content_disposition (1.0.0)
     crass (1.0.4)
-    curb (0.9.10)
     down (4.8.1)
       addressable (~> 2.5)
     erubi (1.8.0)
